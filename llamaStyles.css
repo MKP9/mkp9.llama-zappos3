@@ -1,0 +1,140 @@
+/*
+    Ginger Bakes
+	Author: Michael Peterson
+	Date: 6.27.2016
+	Version: 1.0
+	Filename:			llamaStyles.css
+	Supporting files: 	llamaPlains.jpg
+	
+
+*/
+
+/* Styles for llama.htm and aboutLlam.htm */
+
+/* Header styles */
+header h2 {
+	font-size: 84px;
+}
+
+header h3 {
+	font-size: 36px;
+}
+
+/* Styles for the Top Nav Bar. */
+.topNav {
+	clear: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.topNav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 130px;
+	font-size: 22px;
+}
+
+.topNav ul li {
+	color: white;
+	display: block;
+	float: left;
+	width: 16%;
+	font-size: 1em;
+	height: 3em;
+	text-align: center;
+	border: 1px solid orange;
+	line-height: 3em;
+	margin: 0px 4px 25px 0px;
+	background-color: ghostwhite;
+}
+
+.topNav li a:hover {
+	color: orange;
+}
+
+/* Body styles */
+body {
+	margin: 0px auto;
+	background-image: url(llamaPlains.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* Styles for the About Llamas, Llama History,
+   Llama skill set, Llama education sections and aboutLlama. */
+.aboutLlamas {
+	clear: left;
+	width: 15%;
+	height: 24%;
+	margin-top: 10px;
+	background-color: ghostwhite;
+	float: left;
+	border: 3px solid rgb(0, 255, 0);
+	 -moz-border-radius: 15px;
+	 border-radius: 15px;
+}
+
+.aboutLlamas h2 {
+	color: orange;
+	font-size: 38px;
+	font-family: 'Kaushan Script', cursive; 
+}
+
+.aboutLlamas p {
+	color: black;
+	font-size: 18px;
+}
+
+.llamaHistory {
+	clear: left;
+	color: white;
+	font-size: 38px;
+}
+
+.llamaHistory p {
+	color: orange;
+	font-size: 18px;
+}
+
+.llamaSkillSet {
+	color: white;
+	font-size: 38px;
+}
+
+.llamaSkillSet p {
+	color: orange;
+	font-size: 18px;
+}
+
+.llamaEducation {
+	color: white;
+	font-size: 38px;
+}
+
+.llamaEducation p {
+	color: orange;
+	font-size: 18px;
+}
+
+/* Styles for the aboutLlamaPage. */
+.aboutLlamaPage {
+	color: white;
+	text-align: center;
+	clear: right;
+}
+
+.aboutLlamaPage p {
+	margin-top: 50px;
+}
+
+/* Styles for the footer element. */
+footer {
+	text-align: center;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: small-caps;
+	border-top: 1px solid black;
+	background-color: rgb(0, 255, 255);
+	width: 100%;
+}
